@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect } from "react";
+import React, { useEffect } from "react";
 import { api } from "../api/api";
 import { Typography } from "@mui/material";
 
