@@ -13,7 +13,7 @@ import "./Navbar.scss";
 
 import Link from "next/link";
 
-import { useState } from "react";
+import React, { useState } from "react";
 
 export default function Navbar() {
   const [anchorElNav, setAnchorElNav] = useState(null);
