@@ -20,7 +20,7 @@ export default function Home() {
 
   return (
     <>
-      <Typography>Início</Typography>
+      <Typography>Página onde o GET no Backend é feito</Typography>
     </>
   );
 }
