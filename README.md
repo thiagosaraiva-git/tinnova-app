@@ -30,3 +30,7 @@ npm run test
 # or
 yarn test
 ```
+
+## 🛣️ Roadmap Improvements (WIP)
+1. Finalizar testes unitários
+2. Resolver problema com SCSS em produção (Vercel)
