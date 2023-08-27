@@ -1,8 +1,8 @@
 ## Tinnova App
 
-O projeto Tinnova App foi construido utilizando Next 13 (app folder), react-hook-form, Yup, Sass, Material UI, Axios e Jest.
+O projeto Tinnova App foi construido utilizando Next 13 (app folder), react-hook-form, Yup, Sass, Material UI, Axios, react-testing-library e Jest.
 
-## Iniciando
+## 🚀 Iniciando
 1. Clone o repositório localmente;
 2. Instale as dependências do projeto:
 
@@ -22,7 +22,7 @@ yarn dev
 
 4. Acesse o projeto através do endereço: [http://localhost:3000](http://localhost:3000).
 
-## Testando
+## 🧰 Testando
 1. Execute o comando para iniciar os testes unitários:
 
 ```bash
