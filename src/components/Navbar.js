@@ -1,5 +1,8 @@
 "use client";
 
+import Link from "next/link";
+import React, { useState } from "react";
+
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
@@ -9,11 +12,8 @@ import Menu from "@mui/material/Menu";
 import MenuIcon from "@mui/icons-material/Menu";
 import Container from "@mui/material/Container";
 import MenuItem from "@mui/material/MenuItem";
+
 import "./Navbar.scss";
-
-import Link from "next/link";
-
-import React, { useState } from "react";
 
 export default function Navbar() {
   const [anchorElNav, setAnchorElNav] = useState(null);
