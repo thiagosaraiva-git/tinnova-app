@@ -8,7 +8,7 @@ import { Box } from "@mui/material";
 import Snackbar from "@mui/material/Snackbar";
 import LoadingButton from "@mui/lab/LoadingButton";
 
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as Yup from "yup";
@@ -60,7 +60,7 @@ export default function Cadastro() {
       setIsLoading(false);
       handleSnackOpen();
       reset();
-    }, 3000); // 5000 milissegundos = 5 segundos
+    }, 3000);
   };
   
   const handleSnackOpen = () => {
@@ -75,10 +75,7 @@ export default function Cadastro() {
         justifyContent="center"
         direction="column"
       >
-        <Grid item>
-          <Typography>Tinnova</Typography>
-        </Grid>
-        <Box component="form" autoComplete="off">
+        <Box component="form" autoComplete="off" sx={{ width: '18%' }} className="cadastroContainer">
           <Grid item>
             <FormControl>
               <TextField
@@ -137,6 +134,7 @@ export default function Cadastro() {
               onClick={handleSubmit(onSubmit)}
               fullWidth
               loading={isLoading}
+              disabled={isLoading}
             >
               Cadastrar
             </LoadingButton>
